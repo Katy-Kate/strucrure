@@ -1,0 +1,14 @@
+doctype html
+include mixins
+html
+    include _head
+    body
+        header
+            +menu(menuItem)
+
+        main
+            .container
+                block content
+        footer
+            +menu(footerMenu)
+

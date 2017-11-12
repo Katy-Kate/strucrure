@@ -1,0 +1,7 @@
+// menu
+-var menuItem = {'Home':'index.html','About':'page-about.html','Contacts':'page-contact.html'}
+-var footerMenu = {'Home':'index.html','About':'page-about.html','Contacts':'page-contact.html'}
+mixin menu(items)
+    ul
+        each link,name in items
+            li: a(href=link) #{name}
