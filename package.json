@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Katy-Kate/site-structure.git"
+    "url": ""
   },
   "author": "Kate Turalnikova",
   "license": "ISC",
@@ -22,7 +22,5 @@
     "gulp-jade": "^1.1.0",
     "gulp-stylus": "^2.6.0"
   },
-  "dependencies": {
-    "gulp": "^3.9.1"
-  }
+  "dependencies": {}
 }
